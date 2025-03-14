@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/button';
 import { useTheme } from 'next-themes';
-import { Moon, Sun, Menu } from 'lucide-react';
+import { Moon, Sun, Menu, PenLine } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -28,7 +28,8 @@ useEffect(() => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold">Doc Sign Hub</span>
+              <PenLine className="h-6 w-6" />
+              <span className="text-xl font-bold">DocSignHub</span>
             </Link>
           </div>
 

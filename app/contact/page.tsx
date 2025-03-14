@@ -25,7 +25,7 @@ export default function ContactPage() {
               <Mail className="h-6 w-6 mt-1" />
               <div>
                 <h3 className="font-medium">Email</h3>
-                <p className="text-muted-foreground">support@Doc Sign Hub.com</p>
+                <p className="text-muted-foreground">support@DocSignHub.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -49,7 +49,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-semibold mb-6">Office Location</h2>
             <Card>
               <CardHeader>
-                <CardTitle>Doc Sign Hub HQ</CardTitle>
+                <CardTitle>DocSignHub HQ</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">

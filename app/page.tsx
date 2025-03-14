@@ -128,7 +128,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-              Why choose Doc Sign Hub? 🤔
+              Why choose DocSignHub? 🤔
             </h2>
             <p className="text-muted-foreground text-lg">
               Simple, secure, and free document signing for everyone ✨
@@ -193,7 +193,7 @@ export default function Home() {
               Ready to start signing? 🚀
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Join thousands of users who trust Doc Sign Hub for their document signing needs ✨
+              Join thousands of users who trust DocSignHub for their document signing needs ✨
             </p>
             <Link href="/sign">
               <Button size="lg" className="text-lg px-8 h-12">
