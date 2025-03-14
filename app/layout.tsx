@@ -18,6 +18,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <title>DocSignHub - Fast and Easy Document Signing</title>
+        <meta name="description" content="Get your documents signed quickly and easily with DocSignHub. Our streamlined process makes document signing simple and efficient." />
+        <meta name="keywords" content="document signing, e-signature, fast signing, digital documents" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://www.docsignhub.com" />
+        <meta property="og:title" content="DocSignHub - Fast and Easy Document Signing" />
+        <meta property="og:description" content="Get your documents signed quickly and easily with DocSignHub." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.docsignhub.com" />
+        <meta property="og:image" content="https://www.docsignhub.com/og-image.jpg" />
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
       </head>
       <body className={inter.className}>
