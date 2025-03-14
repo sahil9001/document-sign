@@ -53,7 +53,7 @@ useEffect(() => {
                 <DropdownMenuItem onClick={() => setTheme('system')}>System</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link href="/sign/demo-document">
+            <Link href="/sign">
               <Button>Start Signing</Button>
             </Link>
           </div>
@@ -75,7 +75,7 @@ useEffect(() => {
             <Link href="/contact" className="block px-4 py-2 text-muted-foreground hover:text-foreground">
               Contact
             </Link>
-            <Link href="/sign/demo-document" className="block px-4 py-2">
+            <Link href="/sign" className="block px-4 py-2">
               <Button className="w-full">Start Signing</Button>
             </Link>
           </div>

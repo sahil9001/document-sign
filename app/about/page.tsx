@@ -37,11 +37,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-4">Our Story</h2>
           <p className="text-muted-foreground mb-4">
             Founded in 2025, DocSignHub was born from the need to simplify the document signing process
-            while maintaining the highest levels of security and legal compliance.
-          </p>
-          <p className="text-muted-foreground">
-            Today, we serve thousands of customers worldwide, from individual freelancers to large
-            enterprises, helping them streamline their document workflows and close deals faster.
+            while maintaining the highest levels of security and legal compliance. All our data is processed on the client side, hence we do not own any of your documents in any manner.
           </p>
         </div>
         <div className="relative aspect-video rounded-lg overflow-hidden">

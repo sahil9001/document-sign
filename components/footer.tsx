@@ -16,26 +16,6 @@ export function Footer() {
             </p>
           </div>
           
-          <div>
-            <h3 className="font-semibold mb-4">Product</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/pricing" className="text-muted-foreground hover:text-foreground">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="/features" className="text-muted-foreground hover:text-foreground">
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link href="/security" className="text-muted-foreground hover:text-foreground">
-                  Security
-                </Link>
-              </li>
-            </ul>
-          </div>
 
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
@@ -48,27 +28,6 @@ export function Footer() {
               <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                   Contact
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="text-muted-foreground hover:text-foreground">
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/privacy" className="text-muted-foreground hover:text-foreground">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms" className="text-muted-foreground hover:text-foreground">
-                  Terms of Service
                 </Link>
               </li>
             </ul>

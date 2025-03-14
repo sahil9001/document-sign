@@ -32,7 +32,7 @@ export function UploadDocument() {
     
     // In a real app, you would upload the file to a storage service here
     // For this demo, we'll just simulate the upload and redirect to the signing page
-    router.push('/sign/demo-document');
+    router.push('/sign');
   };
 
   return (
