@@ -1,5 +1,6 @@
 'use client';
 
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/button';
 import { useTheme } from 'next-themes';
@@ -16,13 +17,18 @@ export function Navbar() {
   const { setTheme, theme } = useTheme();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const [mounted, setMounted] = useState(false);
+
+useEffect(() => {
+  setMounted(true);
+}, []);
   return (
     <nav className="border-b">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold">DocSign</span>
+              <span className="text-xl font-bold">Doc Sign Hub</span>
             </Link>
           </div>
 
@@ -37,7 +43,7 @@ export function Navbar() {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  {theme === 'dark' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+                  {mounted && theme === 'dark' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">

@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Users, Zap } from "lucide-react";
 
@@ -25,7 +26,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto py-16 px-4">
       <div className="max-w-3xl mx-auto text-center mb-16">
-        <h1 className="text-4xl font-bold mb-4">About DocSign</h1>
+        <h1 className="text-4xl font-bold mb-4">About Doc Sign Hub</h1>
         <p className="text-muted-foreground text-lg">
           We're on a mission to make document signing simple, secure, and accessible to everyone.
         </p>
@@ -35,7 +36,7 @@ export default function AboutPage() {
         <div>
           <h2 className="text-3xl font-bold mb-4">Our Story</h2>
           <p className="text-muted-foreground mb-4">
-            Founded in 2025, DocSign was born from the need to simplify the document signing process
+            Founded in 2025, Doc Sign Hub was born from the need to simplify the document signing process
             while maintaining the highest levels of security and legal compliance.
           </p>
           <p className="text-muted-foreground">
@@ -70,7 +71,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-4">Join Us</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
           We're always looking for talented individuals to join our team. Check out our careers page
-          to see current openings and learn more about working at DocSign.
+          to see current openings and learn more about working at Doc Sign Hub.
         </p>
       </div>
     </div>
