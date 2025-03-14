@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider";
 import { Providers } from './providers';
 import { RootLayoutClient } from './root-layout-client';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
           </ThemeProvider>
         </Providers>
       </body>
+      <GoogleAnalytics gaId="G-DFLXKB5Y13" />
     </html>
   );
 }
