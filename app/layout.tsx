@@ -22,6 +22,7 @@ export default function RootLayout({
         <meta name="description" content="Get your documents signed quickly and easily with DocSignHub. Our streamlined process makes document signing simple and efficient." />
         <meta name="keywords" content="document signing, e-signature, fast signing, digital documents" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="canonical" href="https://www.docsignhub.com" />
         <meta property="og:title" content="DocSignHub - Fast and Easy Document Signing" />
         <meta property="og:description" content="Get your documents signed quickly and easily with DocSignHub." />
